@@ -21,35 +21,35 @@ This project builds an **Explainable Machine Learning System** that:
 
 ## 📁 Project Structure
 
-
+```
 ai-model-failure-detection
 │
 ├── app/
-│ ├── .gitkeep
-│ └── app.py # Streamlit application
+│   ├── .gitkeep
+│   └── app.py                # Streamlit application
 │
 ├── data/
-│ ├── .gitkeep
-│ └── dataset.csv # Telecom churn dataset
+│   ├── .gitkeep
+│   └── dataset.csv           # Telecom churn dataset
 │
 ├── models/
-│ ├── .gitkeep
-│ └── baseline_pipeline.pkl # Trained ML pipeline
+│   ├── .gitkeep
+│   └── baseline_pipeline.pkl # Trained ML pipeline
 │
 ├── notebooks/
-│ ├── .gitkeep
-│ ├── day1_baseline.ipynb
-│ ├── day2_failure_detection.ipynb
-│ ├── day3_xai_failure_analysis.ipynb
-│ └── day4_risk_segmentation_business_insights.ipynb
+│   ├── .gitkeep
+│   ├── day1_baseline.ipynb
+│   ├── day2_failure_detection.ipynb
+│   ├── day3_xai_failure_analysis.ipynb
+│   └── day4_risk_segmentation_business_insights.ipynb
 │
 ├── src/
-│ └── .gitkeep
+│   └── .gitkeep
 │
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
+```
 
 This structure separates experimentation (notebooks), production assets (models), and deployment code (Streamlit app), following industry-standard ML project organization.
 
