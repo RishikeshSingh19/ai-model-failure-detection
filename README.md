@@ -136,3 +136,30 @@ Example churn drivers:
 - Long tenure → reduces risk
 
 This transforms the model from a **black box** into an interpretable decision-support system.
+
+## 🌐 Streamlit Dashboard
+
+The project includes an interactive Streamlit web application that allows users to simulate telecom customer scenarios and predict churn risk in real time.
+
+### Dashboard Features
+
+* Customer input form for telecom attributes
+* Real-time churn probability prediction
+* Risk categorization (Low / Medium / High)
+* Explainable AI insights using SHAP
+* Feature contribution visualization
+* Business-friendly prediction dashboard
+
+### User Workflow
+
+1. Enter customer information:
+
+   * Tenure
+   * Monthly Charges
+   * Contract Type
+   * Internet Service
+   * Payment Method
+2. Click **Predict Churn Risk**
+3. View prediction results and explanation
+
+The dashboard translates machine learning predictions into actionable business insights, enabling telecom teams to identify high-risk customers and design retention strategies.
