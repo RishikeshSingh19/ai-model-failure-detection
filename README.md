@@ -105,6 +105,8 @@ Churn Probability Prediction
 
 The pipeline ensures consistent preprocessing during both training and inference, reducing prediction errors in deployment.
 
+Predictions are further interpreted using SHAP-based explainability.
+
 ---
 
 ## 🧠 Explainable AI (SHAP)
@@ -163,39 +165,3 @@ The project includes an interactive Streamlit web application that allows users 
 3. View prediction results and explanation
 
 The dashboard translates machine learning predictions into actionable business insights, enabling telecom teams to identify high-risk customers and design retention strategies.
-
-## 🧠 Explainable AI (SHAP)
-
-To make model predictions transparent and interpretable, this project integrates **SHAP (SHapley Additive exPlanations)**.
-
-SHAP explains how each feature contributes to a churn prediction by measuring its impact on the model output.
-
-### Why Explainability Matters
-
-In real-world telecom businesses, predictions alone are not sufficient. Decision-makers need to understand:
-
-* Why a customer is predicted to churn
-* Which factors increase churn risk
-* Which factors reduce churn risk
-
-Explainability helps build trust in machine learning systems.
-
-### SHAP Visualizations Included
-
-* **Waterfall Plot**
-
-  * Shows how each feature pushes prediction toward churn or retention.
-
-* **Feature Importance Plot**
-
-  * Displays the most influential variables affecting churn predictions.
-
-### Example Insights
-
-Typical churn drivers identified by the model:
-
-* Month-to-month contracts increase churn risk
-* High monthly charges increase churn probability
-* Long customer tenure reduces churn risk
-
-These explanations allow business teams to design targeted retention strategies.
