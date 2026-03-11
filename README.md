@@ -77,3 +77,62 @@ The project uses a telecom customer dataset containing customer demographics, su
 - `0` → Customer likely to stay
 
 The dataset represents real-world churn behavior commonly analyzed in telecom analytics.
+
+---
+
+## 🤖 Model Approach
+
+The project builds an end-to-end machine learning pipeline to predict telecom customer churn.
+
+### Machine Learning Workflow
+
+Data Preprocessing  
+↓  
+Feature Encoding  
+↓  
+Pipeline Transformation  
+↓  
+Logistic Regression Model  
+↓  
+Churn Probability Prediction
+
+### Model Details
+
+- **Algorithm:** Logistic Regression
+- **Class Handling:** Balanced class weights
+- **Pipeline:** Scikit-learn Pipeline
+- **Output:** Probability of customer churn
+
+The pipeline ensures consistent preprocessing during both training and inference, reducing prediction errors in deployment.
+
+---
+
+## 🧠 Explainable AI (SHAP)
+
+To make predictions transparent and business-interpretable, the system integrates **SHAP (SHapley Additive Explanations)**.
+
+### Why Explainability Matters
+
+Telecom companies must understand *why* customers churn — not just predictions.
+
+SHAP explains:
+
+- Which features increase churn risk
+- Which features reduce churn risk
+- Individual customer prediction reasoning
+
+### Explanation Features
+
+✅ SHAP Waterfall Plot  
+Shows how each feature pushes prediction toward churn or retention.
+
+✅ Feature Contribution Analysis  
+Displays top drivers influencing churn predictions.
+
+Example churn drivers:
+
+- Month-to-month contract → increases risk
+- High monthly charges → increases risk
+- Long tenure → reduces risk
+
+This transforms the model from a **black box** into an interpretable decision-support system.
