@@ -6,6 +6,12 @@ This project demonstrates the complete Data Science lifecycle — from data prep
 
 ---
 
+🚀 **Live Application**
+
+Try the deployed app here:
+
+👉 https://telecom-churn-xai.streamlit.app
+
 ## 🎯 Project Overview
 
 Telecommunication companies face significant revenue loss due to customer churn.  
